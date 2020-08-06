@@ -1,0 +1,198 @@
+body{
+    background-color: #ececec;
+}
+
+#trust{
+    font-size: 80px;
+    font-weight: 640;
+    color: black;
+}
+
+.person_text h2{
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.person_text h5{
+    line-height: 1.67;
+}
+
+.color-fade-section h2{
+    font-size: 90px;
+    font-weight: 700;
+    color: white ;
+}
+
+.color-fade-section span{
+    display: block;
+    text-align:right;
+    font-style: italic;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1107px){
+    .color-fade-section span{
+        display: inline-block;
+    }
+}
+
+.color-fade-section p{
+    max-width: 500px;
+    line-height: 1.6;
+    color: #666;
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#color-fade{
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.white-background-scroll{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    transition: all .2s;
+}
+
+
+.h2_black{
+    color: black !important;
+    z-index: 999;
+}
+
+.scrolling span{
+    font-weight: 700;
+    font-size: 250px;
+    color: black;
+    font-family: 'Prata', serif;
+}
+
+.scrolling p{
+    line-height: 1.7;
+    font-size: 30px;
+}
+
+	article {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	figure {
+		background: #eee;
+		width: calc( 50% + 1px);
+		height: 100vh;
+		margin: 0 auto 10vh 0;
+		position: sticky;
+        top: 0;
+		overflow: hidden;
+		box-shadow: 4px -4px 8px rgba(0,0,0,.4);
+			}
+    
+	.scrolling section {
+		background: #e5e5e5;
+		width: calc(50% + 1px);
+		height: 200vh;
+		margin: 0 0 10vh auto;
+		position: sticky;
+        bottom: 100% ;
+		overflow: hidden;
+		padding: 5vmin;
+		box-shadow: -4px -4px 8px rgba(0,0,0,.4);
+            }
+            
+    figure:last-of-type,
+	.scrolling section:last-of-type {
+		margin-bottom: 0;
+	}
+
+
+#mybtn {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(228, 60, 60), rgb(226, 59, 59) 50%, rgb(255, 255, 255) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    cursor: pointer;
+}
+
+.arrow-div:hover #mybtn{
+    background-position: 0 100%;
+}
+
+.arrow-right{
+    display: block;
+    margin-left: 45px;
+    margin-top: 12px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    transform: rotate(135deg);
+    position: absolute;
+    transition: all .3s;
+}
+
+.long-arrow-right{
+    right: 70px;
+    }
+
+.new-arrow-right{
+    right: 90px;
+    opacity: 0;
+}
+    
+.new-arrow-right::after,
+.long-arrow-right::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 45px;
+    background-color: white;
+    transform: rotate(-45deg) translate(15px, 4px);
+    left: 0;
+    top: 0;
+    }
+
+.arrow-div{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    width: 30%;
+}
+
+.arrow-div:hover .long-arrow-right{
+    right: -200px;
+}
+
+.arrow-div:hover .new-arrow-right{
+    right: 70px;
+    opacity: 1;
+}
+
+footer h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
